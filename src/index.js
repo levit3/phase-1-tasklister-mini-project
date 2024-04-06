@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     const toDo = document.querySelector("div#list ul");
     const listValue = document.createElement("li");
-    const select = document.createElement("select");
 
     const p = document.createElement("p");
     p.textContent = `${input.value} `;
